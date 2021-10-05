@@ -7,6 +7,8 @@ import { ItemComponent } from './components/item/item.component';
 import { ItemsComponent } from './components/items/items.component';
 import { TotalComponent } from './components/total/total.component';
 import { AppRoutingModule } from './app-routing.module';
+import { AdditemComponent } from './components/additem/additem.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -14,11 +16,13 @@ import { AppRoutingModule } from './app-routing.module';
     HeaderComponent,
     ItemComponent,
     ItemsComponent,
-    TotalComponent
+    TotalComponent,
+    AdditemComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

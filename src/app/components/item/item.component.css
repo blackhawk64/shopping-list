@@ -1,11 +1,17 @@
 .row {
   display: flex;
   box-sizing: border-box;
+  align-items: center;
+}
+
+.row:hover{
+  border-radius: 3px;
+  background: #eee;
 }
 
 .completed {
   text-decoration: line-through;
-  color: #ccc;
+  color: #ddd;
 }
 
 .completed .total {
@@ -44,4 +50,18 @@ div {
   text-align: center;
   box-sizing: border-box;
   padding: 0 5px;
+}
+
+.actions button{
+  border: none;
+  font-size: 12px;
+  background-color: red;
+  color: white;
+  padding: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.actions button:hover{
+  background-color: darkred;
 }

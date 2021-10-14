@@ -25,3 +25,10 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+## How does i created a new routing from CLI
+From Angular documentation, i got this code: `ng generate module app-routing --flat --module=app`
+The explanation is below:
+> --flat puts the file in src/app instead of its own folder.
+> --module=app tells the CLI to register it in the imports array of the AppModule.
